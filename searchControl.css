@@ -1,0 +1,28 @@
+.search-control {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  display: flex;
+  background: white;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+}
+
+.search-control input {
+  border: none;
+  padding: 5px;
+  margin-right: 5px;
+  outline: none;
+}
+
+.search-control button {
+  background: #3f51b5;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  outline: none;
+}
